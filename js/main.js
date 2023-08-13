@@ -172,3 +172,13 @@
     });
 
 })(jQuery);
+
+        document.addEventListener("DOMContentLoaded", function () {
+          const section = document.querySelector(".breadcrumb-section");
+          const certificateImg = document.querySelector(".certificate-img");
+
+          section.addEventListener("click", function () {
+            certificateImg.style.display =
+              certificateImg.style.display === "block" ? "none" : "block";
+          });
+        });

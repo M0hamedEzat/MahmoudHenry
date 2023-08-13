@@ -1,11 +1,4 @@
-/******************************************************************
-  Template Name: Gym
-  Description:  Gym Fitness HTML Template
-  Author: Colorlib
-  Author URI: https://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
+
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -77,10 +70,10 @@ h6 {
 }
 
 p {
-	font-size: 14px;
-	font-family: "Muli", sans-serif;
+	font-size: 20px;
+ font-family: 'IBM Plex Sans Arabic', sans-serif;
 	color: #a9a9a9;
-	font-weight: 400;
+	font-weight: 800;
 	line-height: 24px;
 	margin: 0 0 15px 0;
 }
@@ -138,6 +131,21 @@ ol {
 	background-size: cover;
 	background-position: top center;
 }
+.filter{
+	filter: sepia(7%) brightness(27%) saturate(314%) contrast(99%) drop-shadow(10px 10px 5px #000000);
+-webkit-filter: sepia(7%) brightness(27%) saturate(314%) contrast(99%) drop-shadow(10px 10px 5px #000000);
+-moz-filter: sepia(7%) brightness(27%) saturate(314%) contrast(99%) drop-shadow(10px 10px 5px #000000);
+
+}
+        .certificate-img {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
 
 .spad {
 	padding-top: 100px;
@@ -1244,6 +1252,9 @@ ol {
 .breadcrumb-section {
 	height: 500px;
 	padding-top: 230px;
+	position: relative;
+    cursor: pointer;
+
 }
 
 .breadcrumb-text h2 {
